@@ -6,25 +6,17 @@ import java.util.List;
 import java.util.Map;
 
 public class Stats {
-
-    private double averagePositivityRate;
-
+    private Double averagePositivityRate;
     private List<Row> fullRows;
-
     private List<LocalDate> datesWithHighR;
-
     private List<LocalDate> highestIncidenceRate;
-
     private Map<Month, Double> occupancyByMonth;
 
-    public Stats() {
-    }
-
-    public double getAveragePositivityRate() {
+    public Double getAveragePositivityRate() {
         return averagePositivityRate;
     }
 
-    public void setAveragePositivityRate(double averagePositivityRate) {
+    public void setAveragePositivityRate(Double averagePositivityRate) {
         this.averagePositivityRate = averagePositivityRate;
     }
 

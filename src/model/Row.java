@@ -3,15 +3,10 @@ package model;
 import java.time.LocalDate;
 
 public class Row {
-
     private final LocalDate extractDate;
-
     private final Double incidenceRate;
-
     private final Double r;
-
     private final Double occupancyRate;
-
     private final Double positivityRate;
 
     public Row(LocalDate extractDate, Double incidenceRate, Double r, Double occupancyRate, Double positivityRate) {
